@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 60%;
+    height: 100vh;
+    background-color: #151A22;    /*#393E44*/
+}
+
+.inner-left{
+    height: 85%;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+img{
+    height: 80px;
+}
+.logo-text{
+    height: 80px;
+    padding: 15px 0;
+    color: #FFFF;
+}
+.logo-text p{
+    font-size: small;
+    font-weight: bold;
+}
+.welcome{
+    width: 100%;
+    color: #393E44;
+}
+.welcome h1{
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFFF;
+    
+}
+.welcome h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+.welcome p{
+    font-weight: bold;
+    line-height: 25px;
+    font-size: medium;
+    letter-spacing: -1px;
+    padding: 40px 0;
+}
+.welcome button{
+    background-color: #00A876;
+    color: #FFFF;
+    padding: 10px 30px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}a
+.welcome button:hover{
+    cursor: pointer;
+    box-shadow: #00A876 0px 4px 12px;
+}
+.nav{
+    color: #393E44;
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav select{
+    color: #393E44;
+    background: none;
+    border: none;
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav span{
+    padding-left: 35px;
+}
+
+.right{
+    width: 40%;
+    height: 100vh;
+    background-color: #00A876;
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 100%;
+}
+form{
+    width: 400px;
+    margin: auto;
+}
+.login h2{
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 30px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+.inp{
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFFF;
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+.inp[type="email"]{
+    margin-bottom: 10px;
+}
+.inp[type="password"]{
+    margin-bottom: 30px;
+}
+.inp::placeholder{
+    color: #FFFF;
+}
+#button{
+    background-color: #FFFF ;
+    color: #00A876;
+    padding: 10px 30px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.login a{
+    color: #FFFF;
+    text-decoration: none;
+    opacity: 0.5;
+    padding: 0 10px;
+}
